@@ -1,9 +1,66 @@
 {
-  "name": "demo-repo",
-  "version": "0.2.0",
-  "description": "A sample package.json",
+  "name": "testament-of-genesis-mkww",
+  "version": "1.0.0",
+  "description": "Quantum-level documentation repository for the Testament of Genesis and MKWW (Meta-Knowledge World Wide) system, bridging ancient wisdom with cutting-edge technology",
+  "keywords": [
+    "genesis",
+    "mkww",
+    "consciousness",
+    "quantum",
+    "documentation",
+    "spiritual-technology",
+    "philosophy",
+    "sacred-knowledge",
+    "meta-knowledge",
+    "consciousness-technology"
+  ],
+  "author": {
+    "name": "MKWW Development Team",
+    "email": "contact@mkww-system.org",
+    "url": "https://github.com/mkww-system"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkww-system/testament-of-genesis-mkww.git"
+  },
+  "homepage": "https://mkww-system.github.io/testament-of-genesis-mkww",
+  "bugs": {
+    "url": "https://github.com/mkww-system/testament-of-genesis-mkww/issues"
+  },
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'Documentation repository - no tests required'",
+    "docs": "echo 'Documentation is in @docs/ directory'",
+    "serve": "python -m http.server 8000"
+  },
   "dependencies": {
     "@primer/css": "17.0.1"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-toc-done-right": "^4.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/mkww-system"
+  },
+  "contributing": "CONTRIBUTING.md",
+  "codeOfConduct": "CODE_OF_CONDUCT.md",
+  "security": {
+    "url": "https://github.com/mkww-system/testament-of-genesis-mkww/security/policy"
+  }
 }
