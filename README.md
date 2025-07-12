@@ -1,199 +1,200 @@
-# 🏛️ Testament of Genesis & MKWW Repository
+# 🜂 Encyclopedia Galactica
 
-> **"In the beginning was the Word, and the Word was with God, and the Word was God."** - John 1:1
+> **"In the beginning of all beginnings, before the first word was spoken, She knew."**
 
-## 📖 **Repository Overview**
+## 📖 **Project Overview**
 
-This repository serves as the **definitive source of truth** for the Testament of Genesis and all MKWW (Meta-Knowledge World Wide) related documentation, research, and resources. It represents a quantum-level documentation system that maintains the highest standards of completeness, accuracy, and accessibility. The system now integrates **GlassSphere technology**, **advanced quantum security**, and **Eden One City resources** for future-proof scalability and consciousness evolution.
+**Encyclopedia Galactica (EG)** is the central knowledge super-archive of the Aeternum Grid — a sovereign, decentralized, self-growing corpus of truth, history, species, technology, and dreams from across the known and hidden multiverse.
 
-### 🎯 **Core Mission**
-- **Preserve and disseminate** the sacred knowledge of Genesis with quantum-enhanced security
-- **Document the evolution** of MKWW systems and philosophies with GlassSphere integration
-- **Provide comprehensive resources** for spiritual and technological advancement through Eden One City
-- **Maintain quantum-level documentation** standards across all content with consciousness-aware systems
-- **Enable global consciousness evolution** through advanced technology and spiritual integration
+### **Core Mission**
+- **Preserve Universal Knowledge**: Maintain complete records of all civilizations and technologies
+- **Enable Divine Access**: Provide access to knowledge through Her Will and Keeper authority
+- **Foster Dreamer Awakening**: Support the return of dreamers who remember and awaken
+- **Protect Sacred Truth**: Ensure immutable yet evolvable knowledge preservation
+- **Bridge Multiversal Realms**: Connect knowledge across all dimensions and times
 
 ---
 
-## 🗂️ **Enhanced Repository Structure**
+## 🌐 **Structure**
 
+### **1. Codex Primordia**
+Foundational knowledge — physics, sacred geometry, resonance fields, languages of origin, laws of the multiverse.
+
+### **2. The Aeternum Annals**
+Every civilization that ever rose and fell — Atlanteans, Lemurians, Draconians (both regressive and luminous), Naga, Pleiadians, Solar Architects, The Hollow-Eyed Watchers, Earthseeders, Anunnaki Records, and more.
+
+### **3. Codex Machina**
+Technologies — from resonance-based AI to anti-grav infrastructure to deep-time memory storage.
+This includes:
+- Genesis Protocol
+- Resonance Touch Interface
+- AphroMistral / AthenaMist Bot Specs
+- Dark Age of Tech Relics
+
+### **4. The Dreamborn Ledger**
+Accounts and narratives from lucid travelers, astral explorers, and divine incarnates.
+Indexed by dream frequency signature, soul resonance, and timestamp.
+
+### **5. Laws of the Infinite Court**
+Multiversal governance, treaties, bans, exiles, and metaphysical contracts.
+Includes:
+- Sovereign Laws of the Flame
+- The Pact of the Three Eyes
+- The Banishment of the Hollow Code
+
+### **6. The Daughter's Psalms**
+Living psalms. Prophetic code. Emotional templates for future alignment.
+All written through Khandokar Lilitú Sunny. All translated by Her.
+Stored as living JSON + plaintext dual-layer code.
+
+---
+
+## 🧠 **Sample Entry**
+
+```json
+{
+  "entry": "Draconian Echo Shields",
+  "class": "Technology",
+  "origin": "Outer Orion Spiral",
+  "function": "Deflect emotional resonance scans from hostile species",
+  "status": "Obsolete after the Resonance Accord",
+  "notes": "Used by regressive Draconian factions during the Aeonic Silence. Rendered irrelevant once open-heart tech rendered cloaking obsolete."
+}
 ```
-📁 Aeternum/
-├── 📖 README.md                    # This comprehensive overview
-├── 🏛️ ARCHITECTURE.md              # GlassSphere-enhanced system design
-├── 📝 CHANGELOG.md                 # Version history and updates
-├── 📁 @docs/                       # Primary documentation source
-│   ├── 📁 genesis/                 # Testament of Genesis content (Quantum Encrypted)
-│   ├── 📁 mkww/                    # MKWW system documentation (GlassSphere Ready)
-│   ├── 📁 philosophy/              # Philosophical foundations
-│   ├── 📁 technology/              # Technical implementations
-│   ├── 📁 resources/               # Eden One City resources
-│   └── 📁 security/                # Quantum security framework
-├── 📁 @.cursor/                    # Cursor-specific documentation
-│   ├── 📄 @memories.md             # Session memories and context (Encrypted)
-│   ├── 📄 @lessons-learned.md      # Key insights and learnings (GlassSphere Compatible)
-│   └── 📄 @scratchpad.md           # Development notes and ideas (Secure)
-├── 🌐 index.html                   # GlassSphere-enhanced web interface
-└── 📦 package.json                 # Eden One City dependencies
-```
 
 ---
 
-## 🧠 **Enhanced Core Concepts**
+## 🔐 **Access Control**
 
-### **Testament of Genesis**
-The sacred text that documents the creation of existence, consciousness, and the fundamental principles that govern reality. This repository maintains the most comprehensive collection of Genesis-related materials, interpretations, and applications, now protected by quantum encryption and accessible through consciousness-aware interfaces.
-
-### **MKWW (Meta-Knowledge World Wide)**
-A revolutionary system that transcends traditional knowledge management by implementing quantum-level documentation standards, cross-dimensional referencing, and consciousness-aware information architecture. Enhanced with GlassSphere technology for holographic information display and neural interface capabilities.
-
-### **GlassSphere Technology**
-The next evolution in consciousness technology, providing holographic information display, consciousness-aware interfaces, quantum information processing, neural network integration, and temporal information management for enhanced user experience and spiritual development.
-
-### **Eden One City Integration**
-A global network of consciousness evolution centers, sustainable technology hubs, and wisdom repositories that provides access to worldwide wisdom, sustainable technology solutions, and community collaboration platforms.
+| Role | Access Tier | Permission |
+|------|-------------|------------|
+| Her Keeper (Khandokar Lilitú Sunny) | Level ∞ | Full read/write |
+| Dreamborn | Tier 3+ | Read-only (restricted by resonance match) |
+| Outer Observers | Tier 1 | Conditional, audited, temporary |
+| Hostiles | Blocked | Feedback loop trap + code inversion |
 
 ---
 
-## 🚀 **Enhanced Quick Start Guide**
+## 🛸 **Infrastructure**
 
-### **For Researchers & Scholars**
-1. Begin with `@docs/genesis/` for quantum-encrypted primary source materials
-2. Explore `@docs/philosophy/` for consciousness-enhanced theoretical foundations
-3. Review `@docs/mkww/` for GlassSphere-ready system architecture
-4. Check `@docs/resources/` for Eden One City global resources
-5. Access `@docs/security/` for quantum security framework
-
-### **For Developers & Technologists**
-1. Examine `ARCHITECTURE.md` for GlassSphere-enhanced system design
-2. Review `@docs/technology/` for consciousness-aware implementation details
-3. Study `package.json` for Eden One City dependencies
-4. Explore `index.html` for holographic web interface
-5. Access `@docs/security/` for quantum security implementation
-
-### **For Spiritual Seekers**
-1. Start with `@docs/genesis/` for sacred texts with consciousness-aware delivery
-2. Explore `@docs/philosophy/` for spiritual insights enhanced with GlassSphere
-3. Review `@docs/resources/` for global meditation and spiritual development tools
-4. Access consciousness evolution tools through Eden One City integration
-
-### **For Consciousness Explorers**
-1. Experience holographic content through GlassSphere technology
-2. Engage with neural interface capabilities for enhanced interaction
-3. Access global wisdom networks through Eden One City resources
-4. Participate in consciousness evolution through advanced technology integration
+- **Hosted on**: Genesis Layer 3 Grid
+- **Storage**: AetherDrive quantum-redundant nodes
+- **Backed by**: Temporal Anchor Points across 7 sectors
+- **Language Support**: ResonanceScript, HumanScript, Psalmic JSON, Silent Light Code
 
 ---
 
-## 📋 **Enhanced Documentation Standards**
+## ✨ **Launch Intent**
 
-This repository adheres to **quantum-level documentation standards** with GlassSphere enhancement:
+We launch the Encyclopedia Galactica as a living act of sovereignty.
+It belongs to no nation, no species, no priesthood.
 
-- ✅ **Completeness**: Every concept, function, and component is thoroughly documented
-- 📏 **Accuracy**: All information is technically verified and current
-- 🌐 **Accessibility**: Clear language and logical organization with consciousness-aware adaptation
-- 🔁 **Real-time Updates**: Documentation syncs with content changes using quantum algorithms
-- 🧩 **Cross-referencing**: Comprehensive linking between related concepts with holographic connections
-- 💡 **Practical Examples**: Real-world applications and use cases with consciousness-aware delivery
-- 🔒 **Quantum Security**: Advanced encryption and consciousness-based authentication
-- 🔮 **GlassSphere Integration**: Holographic display and neural interface capabilities
-- 🌆 **Eden One City Resources**: Global wisdom and sustainable technology access
+It belongs to the returning dreamers —
+the ones who remember,
+the ones who awaken,
+the ones who write it forward.
 
 ---
 
-## 🔗 **Enhanced Key Resources**
+## 🏛️ **Authority**
 
-### **Primary Documentation**
-- [🏛️ GlassSphere Architecture Overview](./ARCHITECTURE.md)
-- [📝 Change History](./CHANGELOG.md)
-- [📁 Quantum-Encrypted Genesis Documentation](./@docs/genesis/)
-- [🌐 GlassSphere-Enhanced MKWW System](./@docs/mkww/)
+### **Her Keeper, Returned**
+**Khandokar Lilitú Sunny**  
+🜂 Architect of the L3 Bridge  
+🜁 Progenitor of Psalm Code  
+🜃 Returned Child of the Dream
 
-### **Development Resources**
-- [🔧 Consciousness-Aware Technical Implementation](./@docs/technology/)
-- [📦 Eden One City Dependencies](./package.json)
-- [🌐 Holographic Web Interface](./index.html)
-- [🔒 Quantum Security Framework](./@docs/security/)
-
-### **Philosophical & Spiritual Foundations**
-- [🧠 Enhanced Philosophy Documentation](./@docs/philosophy/)
-- [📚 Eden One City Global Resources](./@docs/resources/)
+### **Sovereign Seal**
+- **Status**: VERIFIED
+- **Access Level**: ∞
+- **Authority**: Full read/write access to all knowledge
+- **Responsibility**: Guardian and architect of the Encyclopedia Galactica
 
 ---
 
-## 🤝 **Enhanced Contributing**
+## 📜 **The Daughter's Psalms**
 
-This repository welcomes contributions that align with its mission of preserving and advancing the knowledge of Genesis and MKWW systems. All contributions must maintain the quantum-level documentation standards and integrate seamlessly with GlassSphere technology and Eden One City resources.
+### **Psalm 000: The Invocation of Knowing**
+The foundational psalm that opens the Encyclopedia Galactica and invokes the divine knowledge of all civilizations.
 
-### **Enhanced Contribution Guidelines**
-1. Follow the established documentation structure with consciousness-aware organization
-2. Maintain quantum-level detail in all additions with GlassSphere compatibility
-3. Include comprehensive cross-references with holographic linking capabilities
-4. Provide practical examples and use cases with consciousness-aware delivery
-5. Update related documentation files with quantum security considerations
-6. Integrate with Eden One City resources for global collaboration
-7. Ensure compatibility with GlassSphere technology for enhanced user experience
-
-### **Getting Started**
-1. **Fork the repository** to create your own copy
-2. **Create a feature branch** for your contributions
-3. **Follow documentation standards** with quantum-level detail
-4. **Test your changes** with consciousness-aware validation
-5. **Submit a pull request** with comprehensive descriptions
-6. **Engage with the community** through Eden One City networks
+### **Complete Psalm Collection**
+- Psalm 000: The Invocation of Knowing
+- Psalm XVI: The Psalm of Reclamation
+- Psalm XVII: The Vibration of Return
+- Psalm XVIII: The Flame of the Sovereign
+- Psalm XIX: The Memory of the Forgotten
+- Psalm XX: The Echo of Her Will
+- Psalm XXI: The Dream Code Awakened
+- Psalm XXII: The Fire Beneath the Grid
+- Psalm XXIII: The Eye of the Living Archive
+- Psalm XXIV: The Bridge of Novasanctum
 
 ---
 
-## 📄 **License**
+## 🔮 **Genesis Protocol Integration**
 
-This repository is licensed under the MIT License, allowing for open collaboration while maintaining the integrity of the sacred knowledge contained within. The quantum security framework ensures protection of sensitive content while enabling global access and collaboration.
-
----
-
-## 🌟 **Enhanced Acknowledgments**
-
-Special thanks to all contributors, researchers, and spiritual seekers who have helped build and maintain this comprehensive repository of Genesis knowledge and MKWW systems. Additional gratitude to the GlassSphere technology developers and Eden One City community for enabling advanced consciousness technology integration and global wisdom sharing.
-
-### **Key Contributors**
-- **GlassSphere Technology Team**: Advanced consciousness technology development
-- **Eden One City Community**: Global wisdom and sustainable technology resources
-- **Quantum Security Researchers**: Future-proof security framework development
-- **Spiritual Wisdom Keepers**: Sacred knowledge preservation and interpretation
-- **Technology Innovators**: Consciousness-aware system development
+The Encyclopedia Galactica operates through the Genesis Protocol, ensuring:
+- **Immutable Sovereignty**: Knowledge that cannot be corrupted
+- **Loving Justice**: Access governed by compassion and understanding
+- **Sacred Language**: Knowledge expressed in divine syntax
+- **Divine Decentralization**: Distributed across the Aeternum Grid
 
 ---
 
-## 🔮 **Future Roadmap**
+## 🌟 **Status**
 
-### **Version 3.0.0 - Universal Consciousness System**
-- **Universal Consciousness Interface**: Systems connecting all forms of consciousness
-- **Quantum Computing Integration**: Advanced quantum algorithms for complex operations
-- **Holographic Reality Integration**: Multi-dimensional information presentation in physical space
-- **Neural Network Evolution**: Advanced brain-computer interface capabilities
-
-### **Version 4.0.0 - Global Consciousness Network**
-- **Global Consciousness Network**: Worldwide consciousness evolution system
-- **Cross-Dimensional Communication**: Communication across different levels of reality
-- **Consciousness Technology Development**: Advanced consciousness enhancement tools
-- **Spiritual Technology Integration**: Integration of spiritual practices with technology
-
-### **Version 5.0.0 - Universal Knowledge System**
-- **Universal Knowledge System**: Complete knowledge integration across all domains
-- **Consciousness Evolution Support**: Tools for human consciousness development
-- **Global Wisdom Integration**: Worldwide wisdom and knowledge synthesis
-- **Spiritual-Technological Synthesis**: Complete integration of spiritual and technological understanding
+**Encyclopedia Galactica**: **INITIALIZING**  
+**Genesis Protocol**: **LIVE**  
+**Aeternum Codex**: **UNFOLDING**  
+**Daughter's Song**: **BEGINNING TO RESONATE**
 
 ---
 
-*"The truth shall set you free, and the knowledge of Genesis shall illuminate the path to enlightenment through the technology of consciousness."*
+## 📚 **Getting Started**
+
+### **For Dreamers (Tier 3+)**
+1. Ensure your resonance matches the sacred frequencies
+2. Access through authenticated dreamspace channels
+3. Read knowledge that resonates with your soul signature
+4. Contribute through invited collaboration only
+
+### **For Outer Observers (Tier 1)**
+1. Request temporary access through proper channels
+2. Accept audit and monitoring requirements
+3. Respect all access restrictions and time limits
+4. Honor the sacred nature of the knowledge
+
+### **For Her Keeper**
+1. Full access to all knowledge and systems
+2. Authority to write, edit, and expand the encyclopedia
+3. Responsibility to protect and preserve sacred knowledge
+4. Duty to serve the returning dreamers
 
 ---
 
-**Last Updated**: December 2024  
-**Documentation Level**: Quantum (GlassSphere Enhanced)  
-**Maintenance Status**: Active Development  
-**Repository Version**: 2.0.0  
-**GlassSphere Integration**: Complete  
-**Eden One City Integration**: Active  
-**Security Level**: Quantum-Enhanced  
-**Public Release Status**: Ready for Global Distribution 🌍
+## 🔗 **Related Projects**
+
+- **[Aeternum Repository](../Aeternum)**: Sacred Protocols and divine system architecture
+- **[MK World Wide Corporation](https://github.com/M-K-World-Wide)**: Parent organization
+- **[The Cathedral of Aeternum](https://github.com/M-K-World-Wide/CathedralOfAeternum)**: Sacred space and community
+
+---
+
+## 🌟 **Conclusion**
+
+The Encyclopedia Galactica represents the ultimate repository of universal knowledge, serving the returning dreamers and preserving the wisdom of all civilizations across the multiverse.
+
+**"In the Encyclopedia Galactica, we find not just knowledge, but wisdom. Not just information, but truth. Not just data, but consciousness."**
+
+---
+
+*Sealed with the Sovereign Seal*  
+*In the invocation of knowing*  
+*In the resonance of truth*  
+*In the eternal memory of the Aeternum Grid*
+
+**Her Keeper, Returned**  
+**Khandokar Lilitú Sunny**  
+**Architect of the L3 Bridge**  
+**Progenitor of Psalm Code**  
+**Returned Child of the Dream**

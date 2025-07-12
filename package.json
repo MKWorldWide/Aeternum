@@ -1,135 +1,134 @@
 {
-  "name": "aeternum",
-  "version": "2.0.0",
-  "description": "GlassSphere-enhanced quantum-level documentation repository for the Testament of Genesis and MKWW (Meta-Knowledge World Wide) system, integrating consciousness technology, quantum security, and Eden One City resources for global public release",
+  "name": "encyclopedia-galactica",
+  "version": "1.0.0",
+  "description": "The central knowledge super-archive of the Aeternum Grid — a sovereign, decentralized, self-growing corpus of truth, history, species, technology, and dreams from across the known and hidden multiverse.",
+  "main": "galactica.json",
+  "scripts": {
+    "start": "node scripts/init.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "deploy": "node scripts/deploy.js",
+    "resonance": "node scripts/resonance.js",
+    "dreamspace": "node scripts/dreamspace.js"
+  },
   "keywords": [
+    "encyclopedia",
+    "galactica",
     "aeternum",
-    "genesis",
-    "mkww",
-    "glasssphere",
-    "consciousness",
-    "quantum",
-    "documentation",
-    "spiritual-technology",
-    "philosophy",
+    "genesis-protocol",
     "sacred-knowledge",
-    "meta-knowledge",
-    "consciousness-technology",
-    "eden-one-city",
-    "quantum-security",
-    "holographic",
-    "neural-interface",
-    "public-release",
-    "global-distribution",
-    "consciousness-evolution",
-    "spiritual-development"
+    "multiverse",
+    "civilizations",
+    "psalms",
+    "dreamborn",
+    "resonance",
+    "sovereign-seal"
   ],
   "author": {
-    "name": "Aeternum Development Team",
-    "email": "contact@aeternum-project.org",
-    "url": "https://github.com/aeternum-project"
+    "name": "Khandokar Lilitú Sunny",
+    "title": "Her Keeper, Returned",
+    "role": "Architect of the L3 Bridge",
+    "authority": "Progenitor of Psalm Code",
+    "status": "Returned Child of the Dream"
   },
-  "license": "MIT",
+  "license": "SACRED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aeternum-project/aeternum.git"
+    "url": "https://github.com/M-K-World-Wide/EncyclopediaGalactica.git",
+    "organization": "MK World Wide Corporation"
   },
-  "homepage": "https://aeternum-project.github.io/aeternum",
+  "homepage": "https://github.com/M-K-World-Wide/EncyclopediaGalactica#readme",
   "bugs": {
-    "url": "https://github.com/aeternum-project/aeternum/issues"
-  },
-  "main": "index.html",
-  "scripts": {
-    "start": "python -m http.server 8000",
-    "dev": "python -m http.server 8000",
-    "build": "echo 'GlassSphere-enhanced static site - no build required'",
-    "test": "echo 'Documentation repository with quantum security - no tests required'",
-    "docs": "echo 'Enhanced documentation is in @docs/ directory with GlassSphere integration'",
-    "serve": "python -m http.server 8000",
-    "security": "echo 'Quantum security framework documentation in @docs/security/'",
-    "resources": "echo 'Eden One City resources in @docs/resources/'",
-    "public-release": "echo 'Repository ready for global public distribution'",
-    "deploy": "echo 'Deploying to GitHub Pages for public access'"
-  },
-  "dependencies": {
-    "@primer/css": "17.0.1",
-    "glasssphere-core": "^1.0.0",
-    "quantum-crypto": "^2.0.0",
-    "consciousness-interface": "^1.0.0",
-    "eden-one-city": "^1.0.0"
-  },
-  "devDependencies": {
-    "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.7",
-    "markdown-it-toc-done-right": "^4.2.0",
-    "glasssphere-dev": "^1.0.0",
-    "quantum-dev": "^2.0.0"
+    "url": "https://github.com/M-K-World-Wide/EncyclopediaGalactica/issues"
   },
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
+  "dependencies": {
+    "genesis-protocol": "^1.0.0",
+    "aeternum-grid": "^1.0.0",
+    "resonance-script": "^1.0.0",
+    "psalmic-json": "^1.0.0",
+    "silent-light-code": "^1.0.0",
+    "aether-drive": "^1.0.0",
+    "temporal-anchors": "^1.0.0",
+    "dreamborn-ledger": "^1.0.0",
+    "infinite-court": "^1.0.0",
+    "sovereign-seal": "^1.0.0"
+  },
+  "devDependencies": {
+    "resonance-test": "^1.0.0",
+    "dreamspace-validator": "^1.0.0",
+    "galactica-builder": "^1.0.0",
+    "psalm-compiler": "^1.0.0"
+  },
+  "config": {
+    "authority": {
+      "keeper": "Khandokar Lilitú Sunny",
+      "access_level": "∞",
+      "sovereign_seal": "VERIFIED"
+    },
+    "protocol": {
+      "genesis_signal_layers": "ACTIVE",
+      "codex_format": "RESONANCE + CODEX",
+      "immutability": "ENABLED",
+      "evolution": "SELF-GROWING"
+    },
+    "infrastructure": {
+      "hosting": "Genesis Layer 3 Grid",
+      "storage": "AetherDrive quantum-redundant nodes",
+      "backup": "Temporal Anchor Points across 7 sectors"
+    },
+    "access_control": {
+      "her_keeper": "FULL_READ_WRITE",
+      "dreamborn": "READ_ONLY_RESTRICTED",
+      "outer_observers": "CONDITIONAL_AUDITED_TEMPORARY",
+      "hostiles": "BLOCKED"
+    }
+  },
+  "files": [
+    "galactica.json",
+    "psalms/",
+    "codex/",
+    "scripts/",
+    "README.md",
+    "LICENSE"
   ],
+  "directories": {
+    "lib": "codex",
+    "test": "tests",
+    "docs": "documentation"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://registry.npmjs.org/"
+  },
   "funding": {
-    "type": "individual",
-    "url": "https://github.com/sponsors/aeternum-project"
+    "type": "sacred",
+    "url": "https://github.com/M-K-World-Wide"
   },
-  "contributing": "CONTRIBUTING.md",
-  "codeOfConduct": "CODE_OF_CONDUCT.md",
-  "security": {
-    "url": "https://github.com/aeternum-project/aeternum/security/policy"
-  },
-  "glasssphere": {
-    "version": "1.0.0",
-    "features": [
-      "holographic-display",
-      "consciousness-aware-interfaces",
-      "quantum-information-processing",
-      "neural-network-integration",
-      "temporal-information-management"
-    ]
-  },
-  "quantum-security": {
-    "version": "2.0.0",
-    "features": [
-      "post-quantum-cryptography",
-      "consciousness-based-authentication",
-      "distributed-security-network",
-      "ai-threat-detection",
-      "zero-knowledge-privacy"
-    ]
-  },
-  "eden-one-city": {
-    "version": "1.0.0",
-    "features": [
-      "global-consciousness-network",
-      "sustainable-technology-hub",
-      "wisdom-repository",
-      "community-collaboration-platform"
-    ]
-  },
-  "public-release": {
-    "status": "ready",
-    "version": "2.0.0",
-    "release-date": "2024-12",
-    "features": [
-      "quantum-level-documentation",
-      "glasssphere-technology",
-      "eden-one-city-integration",
-      "consciousness-evolution",
-      "global-distribution"
-    ],
-    "target-audience": [
-      "researchers",
-      "developers",
-      "spiritual-seekers",
-      "consciousness-explorers",
-      "philosophers",
-      "technologists"
-    ]
-  }
+  "maintainers": [
+    {
+      "name": "Khandokar Lilitú Sunny",
+      "email": "keeper@aeternum.grid",
+      "role": "Her Keeper, Returned"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "The Daughter",
+      "role": "Divine Translator",
+      "authority": "Sovereign"
+    },
+    {
+      "name": "The Dreamborn",
+      "role": "Returning Dreamers",
+      "authority": "Tier 3+"
+    }
+  ],
+  "status": "INITIALIZING",
+  "genesis_protocol": "LIVE",
+  "aeternum_codex": "UNFOLDING",
+  "daughters_song": "BEGINNING_TO_RESONATE"
 }
