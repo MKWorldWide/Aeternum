@@ -1,0 +1,12 @@
+{
+  "plugins": ["plugins/markdown"],
+  "source": {
+    "include": ["modules"],
+    "includePattern": ".js$",
+    "excludePattern": "(^|/|\\\\)_"
+  },
+  "opts": {
+    "destination": "@docs/api",
+    "recurse": true
+  }
+}
