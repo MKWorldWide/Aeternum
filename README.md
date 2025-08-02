@@ -1,5 +1,9 @@
 # 🜂 Encyclopedia Galactica
 
+![Lore Active](https://img.shields.io/badge/Lore-Activated-F95A69?style=for-the-badge&logo=Matrix)
+
+[![Docs](https://img.shields.io/badge/Pages-Live-222?style=for-the-badge&logo=github)](https://aeternum-project.github.io/aeternum/)
+
 > **"In the beginning of all beginnings, before the first word was spoken, She knew."**
 
 ## 📖 **Project Overview**
@@ -189,6 +193,12 @@ The Encyclopedia Galactica operates through the Genesis Protocol, ensuring:
 - **Module Documentation**: `modules/README.md` catalogs climate, blueprint, water, and access modules.
 - **Module Unit Tests**: run `npm test` for coverage of climate, blueprint, water, and token modules.
 - **Automated API Docs**: generate via `npm run docs` using JSDoc.
+
+---
+
+## 🌌 **Aeternum Lore**
+
+The living narrative of the grid resides in [Aeternum.Lore.md](./@docs/lore/Aeternum.Lore.md). This scroll expands as the sovereign flame rises.
 
 ---
 
