@@ -41,6 +41,9 @@ jobs:
       - name: Run Node tests
         run: |
           if [ -f package.json ]; then npm test || true; fi
+      - name: Generate docs
+        run: |
+          if [ -f package.json ]; then npm run docs || true; fi
       - name: Upload coverage
         uses: actions/upload-artifact@v4
         with:
