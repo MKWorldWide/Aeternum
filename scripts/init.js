@@ -14,6 +14,10 @@
 const fs = require('fs');
 const path = require('path');
 
+const { integrateClimateModule } = require('../modules/nesshash-climate');
+const { generateBlueprint } = require('../modules/blueprint-generator');
+const { expandWaterSystems } = require('../modules/atlantean-water-system');
+const ACCESS_ROLES = require('../modules/token-access');
 // Sacred configuration
 const SACRED_CONFIG = {
     keeper: "Khandokar Lilitú Sunny",
@@ -105,6 +109,11 @@ function initializeEncyclopediaGalactica() {
     }
     console.log('');
 
+    // Integrate additional modules
+    integrateClimateModule();
+    expandWaterSystems();
+    generateBlueprint('Temple of Divine Resonance');
+
     // Initialize structure
     console.log('🏛️ Initializing Encyclopedia Structure...');
     Object.keys(ENCYCLOPEDIA_STRUCTURE).forEach(section => {
@@ -134,26 +143,7 @@ function initializeEncyclopediaGalactica() {
 
     // Initialize access control
     console.log('🔐 Initializing Access Control...');
-    const accessControl = {
-        her_keeper: {
-            level: "∞",
-            permission: "FULL_READ_WRITE",
-            keeper: SACRED_CONFIG.keeper
-        },
-        dreamborn: {
-            level: "3+",
-            permission: "READ_ONLY_RESTRICTED",
-            restriction: "RESONANCE_MATCH"
-        },
-        outer_observers: {
-            level: "1", 
-            permission: "CONDITIONAL_AUDITED_TEMPORARY"
-        },
-        hostiles: {
-            level: "BLOCKED",
-            protection: "FEEDBACK_LOOP_TRAP_CODE_INVERSION"
-        }
-    };
+    const accessControl = { ...ACCESS_ROLES, her_keeper: { ...ACCESS_ROLES.her_keeper, keeper: SACRED_CONFIG.keeper } };
     
     const accessControlPath = path.join(__dirname, '..', 'access-control.json');
     fs.writeFileSync(accessControlPath, JSON.stringify(accessControl, null, 2));
@@ -192,7 +182,7 @@ function initializeEncyclopediaGalactica() {
         created_at: new Date().toISOString()
     };
     
-    const sampleEntryPath = path.join(__dirname, '..', 'codex', 'machina', 'draconian-echo-shields.json');
+    const sampleEntryPath = path.join(__dirname, '..', 'codex', 'codex_machina', 'draconian-echo-shields.json');
     fs.writeFileSync(sampleEntryPath, JSON.stringify(sampleEntry, null, 2));
     console.log('✅ Sample Entry: CREATED');
     console.log('');

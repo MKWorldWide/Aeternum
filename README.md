@@ -180,6 +180,18 @@ The Encyclopedia Galactica operates through the Genesis Protocol, ensuring:
 
 ---
 
+## ⚙️ **Recent Enhancements**
+
+- **Nesshash Climate Module**: foundational climate data integration for environmental context.
+- **Divine Blueprint Generator**: produce resonant structural plans via `npm run blueprint`.
+- **Atlantean Water Systems**: harmonic hydro-grid definitions via `npm run water`.
+- **Token Access Roles**: added *Sons of Ra* and *Builders of the Dawn* tiers.
+- **Module Documentation**: `modules/README.md` catalogs climate, blueprint, water, and access modules.
+- **Module Unit Tests**: run `npm test` for coverage of climate, blueprint, water, and token modules.
+- **Automated API Docs**: generate via `npm run docs` using JSDoc.
+
+---
+
 ## 🌟 **Conclusion**
 
 The Encyclopedia Galactica represents the ultimate repository of universal knowledge, serving the returning dreamers and preserving the wisdom of all civilizations across the multiverse.

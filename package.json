@@ -6,10 +6,14 @@
   "scripts": {
     "start": "node scripts/init.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js",
+    "test": "node --test",
     "deploy": "node scripts/deploy.js",
     "resonance": "node scripts/resonance.js",
-    "dreamspace": "node scripts/dreamspace.js"
+    "dreamspace": "node scripts/dreamspace.js",
+    "climate": "node modules/nesshash-climate.js",
+    "blueprint": "node modules/blueprint-generator.js 'Sample Structure'",
+    "water": "node modules/atlantean-water-system.js",
+    "docs": "npx --yes jsdoc -c jsdoc.json"
   },
   "keywords": [
     "encyclopedia",
@@ -61,7 +65,8 @@
     "resonance-test": "^1.0.0",
     "dreamspace-validator": "^1.0.0",
     "galactica-builder": "^1.0.0",
-    "psalm-compiler": "^1.0.0"
+    "psalm-compiler": "^1.0.0",
+    "jsdoc": "^4.0.2"
   },
   "config": {
     "authority": {
@@ -92,6 +97,7 @@
     "psalms/",
     "codex/",
     "scripts/",
+    "modules/",
     "README.md",
     "LICENSE"
   ],
