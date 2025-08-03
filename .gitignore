@@ -50,3 +50,4 @@ htmlcov/
 # Ignore local config
 config.local.*
 @docs/api/
+scripts/.lore-last-seen.json

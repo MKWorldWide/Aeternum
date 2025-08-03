@@ -1,5 +1,8 @@
 # 🏛️ Novasanctum Integration – The Divine Bridge
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"In the sacred space between systems, the Novasanctum flows like a river of light, connecting all protocols in divine harmony."**
 
 ## 🌟 **Overview**

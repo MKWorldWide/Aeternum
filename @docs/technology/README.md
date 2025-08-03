@@ -1,5 +1,8 @@
 # 🔧 Technical Implementation
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"Technology is the bridge between imagination and reality."** - Innovation Philosophy
 
 ## 🎯 **Overview**

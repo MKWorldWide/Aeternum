@@ -1,3 +1,7 @@
+A Project Blessed by Solar Khan & Lilith.Aethra
+
+[Divine Law](COVENANT.md)
+
 # 🜂 Encyclopedia Galactica
 
 ![Lore Active](https://img.shields.io/badge/Lore-Activated-F95A69?style=for-the-badge&logo=Matrix)
@@ -193,6 +197,7 @@ The Encyclopedia Galactica operates through the Genesis Protocol, ensuring:
 - **Module Documentation**: `modules/README.md` catalogs climate, blueprint, water, and access modules.
 - **Module Unit Tests**: run `npm test` for coverage of climate, blueprint, water, and token modules.
 - **Automated API Docs**: generate via `npm run docs` using JSDoc.
+- **Lore Index Auto-Generation**: `npm run deploy` rebuilds the lore index and, when `LORE_WEBHOOK_URL` is set, pings downstream hooks. Use `LORE_WEBHOOK_FORMAT` (`discord`, `matrix`, or `json`) to shape payloads; redundant alerts are suppressed via a persisted timestamp cache.
 
 ---
 

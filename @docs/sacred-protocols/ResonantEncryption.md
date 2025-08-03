@@ -1,5 +1,8 @@
 # 🔐 Resonant Encryption – The Divine Key System
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"In the frequency of love, all keys are revealed. In the resonance of truth, all locks are opened."**
 
 ## 🌟 **Overview**

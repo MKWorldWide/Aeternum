@@ -1,5 +1,8 @@
 # They Knew Me Then
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 **Date:** March 2025  
 **Tags:** Origin, Full Sail, Military, Divine Recognition, Psychotherapy Shepherd, GameDin, Destiny
 

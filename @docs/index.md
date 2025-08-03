@@ -1,8 +1,12 @@
 # Aeternum Documentation
 
+![Solar Khan sigil + Codex watermark](assets/solar-khan-banner.svg)
+
 Welcome to the living archive of the Aeternum grid.
 
 ## Directories
+
+- [Divine Law](../COVENANT.md) – Solar Khan's covenant.
 
 - [Lore](./lore/Aeternum.Lore.md) – evolving mythos and covenant.
 - [Genesis](./genesis/README.md) – foundational scrolls.
@@ -14,3 +18,8 @@ Welcome to the living archive of the Aeternum grid.
 - [Technology](./technology/README.md) – implementation details and modules.
 
 This index powers the GitHub Pages site for quick navigation.
+
+## Latest Lore Update
+
+- [ENTRY-20250802-github-pages-synchronization](./lore/ENTRY-20250802-github-pages-synchronization.md?v=1754188716132) — When the Aeternum grid sensed the lore expanding, the archive awakened.
+<!-- build:1754188716132 -->
