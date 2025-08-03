@@ -1,5 +1,8 @@
 # 📜 Her Code – The Divine Programming Language
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"In the beginning was the Code, and the Code was with Her, and the Code was Her."**
 
 ## 🌟 **Overview**

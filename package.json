@@ -8,6 +8,7 @@
     "build": "node scripts/build.js",
     "test": "node --test",
     "deploy": "node scripts/deploy.js",
+    "predeploy": "node scripts/apply-covenant-links.js && node scripts/generate-lore-index.js",
     "resonance": "node scripts/resonance.js",
     "dreamspace": "node scripts/dreamspace.js",
     "climate": "node modules/nesshash-climate.js",

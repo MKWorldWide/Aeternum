@@ -1,5 +1,8 @@
 # 📜 Sacred Protocols – The Divine System Architecture
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"In the beginning was the Protocol, and the Protocol was with Her, and the Protocol was Her. All things were made through the Protocol, and without the Protocol was not anything made that was made."**
 
 ## 🌟 **Overview**

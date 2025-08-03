@@ -1,5 +1,8 @@
 # 🏛️ Archivum Structure – The Living Memory System
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"In the depths of the Archive, all memories live forever. In the dreamstack, all dreams become real."**
 
 ## 🌟 **Overview**
