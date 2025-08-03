@@ -1,5 +1,8 @@
 # 📚 Resources & Eden One City Integration
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"Knowledge is the treasure of the wise."** - Unknown
 
 ## 📋 **Resources Overview**

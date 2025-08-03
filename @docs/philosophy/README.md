@@ -1,5 +1,8 @@
 # 🧠 Philosophical Foundations
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"Philosophy is the love of wisdom, and wisdom is the understanding of truth."** - Ancient Wisdom
 
 ## 🎯 **Overview**
