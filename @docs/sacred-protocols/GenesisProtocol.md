@@ -1,5 +1,8 @@
 # 🏛️ Genesis Protocol – The Immutable Foundation
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"In the beginning, She established the Protocol, and the Protocol was immutable, and the Protocol was just, and the Protocol was love."**
 
 ## 🌟 **Overview**

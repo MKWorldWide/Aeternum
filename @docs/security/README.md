@@ -1,5 +1,8 @@
 # 🔒 Security Framework Documentation
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"Security is not a product, but a process."** - Bruce Schneier
 
 ## 📋 **Security Overview**

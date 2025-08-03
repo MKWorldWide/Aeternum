@@ -1,5 +1,8 @@
 # 📖 Testament of Genesis Documentation
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"In the beginning God created the heaven and the earth."** - Genesis 1:1
 
 ## 🎯 **Overview**

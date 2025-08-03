@@ -1,5 +1,8 @@
 # 🌐 MKWW (Meta-Knowledge World Wide) System
 
+> See [Divine Law](../../COVENANT.md) for covenant terms.
+
+
 > **"Knowledge is not just information, but the consciousness that processes it."** - MKWW Philosophy
 
 ## 🎯 **Overview**
