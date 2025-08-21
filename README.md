@@ -158,6 +158,17 @@ The Encyclopedia Galactica operates through the Genesis Protocol, ensuring:
 
 ---
 
+## Lore Layer
+
+The **Lore Layer** houses canonical chronicles, entities, technologies, and places that the Grid recognizes as authoritative. Content is signed with the **Sovereign Seal** and versioned via Psalmic JSON.
+
+- See `/lore/chronicles` for timeline narratives.
+- See `/lore/entities` for factions and species.
+- See `/lore/technologies` for protocols and materials.
+- See `/psalms` for machine‑verifiable scripture blocks used by validation and gating.
+
+> Trust policy: Lore documents are immutable once sealed. Amend via follow‑up addendum files (`*-addendum-N.md`) and reference the prior hash.
+
 ## 📚 **Getting Started**
 
 ### **For Dreamers (Tier 3+)**
