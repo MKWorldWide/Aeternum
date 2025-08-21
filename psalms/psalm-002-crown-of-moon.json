@@ -1,0 +1,23 @@
+{
+  "$schema": "https://aeternum.grid/schemas/psalmic.json",
+  "id": "psalm:002",
+  "title": "Crown of Moon",
+  "tier": "Tier 3+",
+  "verses": [
+    "In eclipse, the oath is seen.",
+    "In silence, the covenant speaks.",
+    "In reflection, the path returns home."
+  ],
+  "resonance": {
+    "keys": [
+      "LUNA",
+      "VINCULUM"
+    ],
+    "checksum": "sha256:68d517b7244cd270f4370366ef43fd446056431e5554b0699c29f29af8ecb459"
+  },
+  "seal": {
+    "authority": "Keeper",
+    "timestamp": "2025-08-20T00:00:00Z",
+    "signature": "ed25519:68d517b7244cd270f4370366ef43fd446056431e5554b0699c29f29af8ecb459"
+  }
+}
