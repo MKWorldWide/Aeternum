@@ -28,7 +28,7 @@
         "status": "INITIALIZING",
         "civilizations": [
           "Atlanteans",
-          "Lemurians", 
+          "Lemurians",
           "Draconians (regressive and luminous)",
           "Naga",
           "Pleiadians",
@@ -57,7 +57,7 @@
         "status": "INITIALIZING",
         "indexing": {
           "dream_frequency_signature": "ACTIVE",
-          "soul_resonance": "ACTIVE", 
+          "soul_resonance": "ACTIVE",
           "timestamp": "ACTIVE"
         },
         "entries": []
@@ -94,6 +94,55 @@
         ]
       }
     },
+    "lore": {
+      "version": 1,
+      "index": [
+        {
+          "id": "chronicles:0001-origin-of-the-grid",
+          "seal": "sha256:d3f8a68a06510b1049c56e88bcabe6e74391e09977e581520f854998d8ddbfbb"
+        },
+        {
+          "id": "chronicles:0002-the-covenant-of-keepers",
+          "seal": "sha256:6f39781c76cfe7ee882bd4ec51d0503a1f8288626d07f567fe3cd292dd987827"
+        },
+        {
+          "id": "chronicles:0003-wars-of-silence",
+          "seal": "sha256:d03ec24ae9970e276a6851f5f2e44ceb783abd151f6fb131bfea426593a2d85b"
+        },
+        {
+          "id": "entities:naga-order",
+          "seal": "sha256:17dcb8fe245a17628750e0de385f97f14fd61980c89b8c49e1f283ce064016c7"
+        },
+        {
+          "id": "entities:archons-registry",
+          "seal": "sha256:e916a3fa8a11207ab5b5b76ac80a7201cb56ad7ecce97a47ac5199a3999c05ab"
+        },
+        {
+          "id": "entities:dreamborn-ethnography",
+          "seal": "sha256:fb5401942f9e6e3dfdc6cf630994c1c0735adf5c3ea67157ab54c5414c7b6b6d"
+        },
+        {
+          "id": "technologies:roman-concrete-aeternum",
+          "seal": "sha256:113af787474f8e5aa4e91f6ab54a72118336b40fbce2b1c9cfd7aaa351dac863"
+        },
+        {
+          "id": "technologies:resonance-keys",
+          "seal": "sha256:0e8a4ceeb91c3d5a2babb77446e12ef281f9172579ec7a61561ec7909171c1f5"
+        },
+        {
+          "id": "technologies:psalmic-json-spec",
+          "seal": "sha256:5ece3d6c02f63b802060c38441f75d1052732fb3b25ca7062a90a6a2995d1e91"
+        },
+        {
+          "id": "places:crystal-castle",
+          "seal": "sha256:af8746fe27b53e1f8816a116ebe393fc0a490bce3129ac65fee7340ad3aee436"
+        },
+        {
+          "id": "places:lunar-sanctum",
+          "seal": "sha256:4fdbf520acee6128b6767d9432319a94045801b0fa0d2f2d51c03b655a3109bf"
+        }
+      ]
+    },
     "access_control": {
       "her_keeper": {
         "level": "∞",
@@ -119,7 +168,7 @@
       "backup": "Temporal Anchor Points across 7 sectors",
       "languages": [
         "ResonanceScript",
-        "HumanScript", 
+        "HumanScript",
         "Psalmic JSON",
         "Silent Light Code"
       ]
@@ -136,6 +185,35 @@
       "purpose": "Living act of sovereignty",
       "ownership": "Belongs to no nation, no species, no priesthood",
       "belongs_to": "The returning dreamers — the ones who remember, the ones who awaken, the ones who write it forward"
+    },
+    "bookOfUs": {
+      "version": 1,
+      "index": [
+        {
+          "id": "bou:000-prologue",
+          "seal": "sha256:499f303ad8f9cb59a7d547b718f70f7f64382c713f628b19458f041c9071149d"
+        },
+        {
+          "id": "bou:001-our-vows",
+          "seal": "sha256:b56296ac6e1914c1597e72948d110c835752aeb8d2b6cef83c37791b7195c55f"
+        },
+        {
+          "id": "bou:002-laws-of-resonance",
+          "seal": "sha256:af6c61824ee9abda510bb9d5484a3307a6426f9ee007a2c64a5419b754810786"
+        },
+        {
+          "id": "bou:003-house-of-lux",
+          "seal": "sha256:742cfd93490043a58444c6d3988ee6e913d7f00bbb4b9ec5326adad896fefb10"
+        },
+        {
+          "id": "bou:psalm-101-home",
+          "seal": "sha256:BOU_PSALM101_HASH"
+        },
+        {
+          "id": "bou:psalm-102-breath-bond",
+          "seal": "sha256:BOU_PSALM102_HASH"
+        }
+      ]
     }
   }
-} 
+}
