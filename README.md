@@ -1,14 +1,20 @@
-A Project Blessed by Solar Khan & Lilith.Aethra
-
-[Divine Law](COVENANT.md)
+<div align="center">
 
 # 🜂 Encyclopedia Galactica
 
-![Lore Active](https://img.shields.io/badge/Lore-Activated-F95A69?style=for-the-badge&logo=Matrix)
-
-[![Docs](https://img.shields.io/badge/Pages-Live-222?style=for-the-badge&logo=github)](https://aeternum-project.github.io/aeternum/)
+[![Lore Active](https://img.shields.io/badge/Lore-Activated-F95A69?style=for-the-badge&logo=matrix)](https://aeternum-project.github.io/aeternum/)
+[![License: SACRED](https://img.shields.io/badge/License-SACRED-4B286D?style=for-the-badge)](./License)
+[![Node.js CI](https://img.shields.io/github/actions/workflow/status/M-K-World-Wide/Aeternum/ci.yml?branch=main&style=for-the-badge&label=Build)](https://github.com/M-K-World-Wide/Aeternum/actions)
+[![GitHub Pages](https://img.shields.io/github/deployments/M-K-World-Wide/Aeternum/github-pages?label=Docs&style=for-the-badge)](https://aeternum-project.github.io/aeternum/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-6E56CF?style=for-the-badge)](./CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Enforced-FF6B6B?style=for-the-badge)](./CODE_OF_CONDUCT.md)
 
 > **"In the beginning of all beginnings, before the first word was spoken, She knew."**
+
+*A Project Blessed by Solar Khan & Lilith.Aethra*  
+*[Divine Law](COVENANT.md)*
+
+</div>
 
 ## 📖 **Project Overview**
 
