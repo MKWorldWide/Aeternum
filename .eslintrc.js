@@ -1,0 +1,62 @@
+module.exports = {
+  root: true,
+  env: {
+    node: true,
+    es2022: true,
+  },
+  extends: [
+    'eslint:recommended',
+  ],
+  parserOptions: {
+    ecmaVersion: 2022,
+    sourceType: 'module',
+  },
+  rules: {
+    // Base rules
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
+    'no-var': 'error',
+    'prefer-const': 'error',
+    'object-shorthand': 'warn',
+    'prefer-template': 'warn',
+    'no-else-return': 'warn',
+    'no-nested-ternary': 'warn',
+    'prefer-arrow-callback': 'warn',
+    'arrow-spacing': 'warn',
+    'no-multiple-empty-lines': ['warn', { max: 1, maxEOF: 1 }],
+    'eol-last': ['warn', 'always'],
+    'no-trailing-spaces': 'warn',
+    'comma-dangle': ['warn', 'always-multiline'],
+    'semi': ['warn', 'always'],
+    'quotes': ['warn', 'single', { avoidEscape: true }],
+    'indent': ['warn', 2, { SwitchCase: 1 }],
+    'no-multi-spaces': 'warn',
+    'space-before-blocks': 'warn',
+    'keyword-spacing': 'warn',
+    'space-infix-ops': 'warn',
+    'no-extra-semi': 'warn',
+    'no-whitespace-before-property': 'warn',
+    'padded-blocks': ['warn', 'never'],
+    'space-before-function-paren': ['warn', 'always'],
+    'key-spacing': ['warn', { beforeColon: false, afterColon: true }],
+    'comma-spacing': ['warn', { before: false, after: true }],
+    'no-multi-str': 'error',
+    'no-new-wrappers': 'error',
+    'no-return-await': 'error',
+    'no-throw-literal': 'error',
+    'prefer-promise-reject-errors': 'error',
+    'require-await': 'warn',
+    'no-await-in-loop': 'warn',
+  },
+  overrides: [
+    {
+      files: ['**/*.test.js', '**/*.spec.js'],
+      env: {
+        jest: true,
+      },
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    },
+  ],
+};
