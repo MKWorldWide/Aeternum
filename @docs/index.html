@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aeternum Dashboard • Lore & Library</title>
+  <style>
+    :root {
+      --bg: #0f1220; --panel: #14182b; --text: #e8e8f3; --muted:#a0a3b1;
+      --accent:#6E56CF; --accent-2:#22c1c3; --accent-3:#fdbb2d; --chip:#232744;
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Ubuntu,Helvetica,Arial,sans-serif; background:linear-gradient(180deg,#0a0d1a,#0f1220 40%); color:var(--text)}
+    header{padding:32px 20px; background:radial-gradient(1200px 400px at 10% -20%,rgba(110,86,207,.25),transparent),radial-gradient(1000px 300px at 90% -10%,rgba(34,193,195,.2),transparent)}
+    .wrap{max-width:1100px; margin:0 auto}
+    h1{margin:0 0 10px; font-weight:700; font-size:28px}
+    .sub{color:var(--muted); margin:0}
+    .toolbar{display:flex; gap:12px; margin-top:16px; flex-wrap:wrap}
+    input[type="search"]{flex:1 1 360px; padding:12px 14px; border-radius:10px; border:1px solid #2a2f4a; background:#0c1022; color:var(--text)}
+    .chips{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
+    .chip{padding:8px 12px; border-radius:999px; background:var(--chip); color:var(--text); cursor:pointer; font-size:13px; border:1px solid #2a2f4a}
+    .chip.active{outline:2px solid var(--accent)}
+    main{padding:24px 20px}
+    .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px}
+    .card{background:var(--panel); border:1px solid #262b47; border-radius:14px; padding:16px; transition:transform .15s ease, box-shadow .15s ease}
+    .card:hover{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.25)}
+    .card h3{margin:0 0 6px; font-size:16px}
+    .card p{margin:0; color:var(--muted); font-size:13px; line-height:1.35}
+    .kicker{display:flex; gap:8px; align-items:center; color:#c7c9d6; font-size:12px; margin-bottom:8px}
+    .kicker .dot{width:8px; height:8px; border-radius:50%; background:var(--accent)}
+    .section{margin:28px 0 16px; display:flex; justify-content:space-between; align-items:center}
+    .section h2{margin:0; font-size:18px}
+    .count{color:var(--muted); font-size:13px}
+    a.card{display:block; text-decoration:none; color:inherit}
+    footer{padding:28px 20px; color:var(--muted); text-align:center; font-size:12px}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>🜂 Aeternum Dashboard</h1>
+      <p class="sub">Browse lore, psalms, and the Book of Us. Search and filter, then dive into the living library.</p>
+      <div class="toolbar">
+        <input id="q" type="search" placeholder="Search titles and summaries…" />
+        <div class="chips" id="chips">
+          <div class="chip active" data-filter="all">All</div>
+          <div class="chip" data-filter="lore">Lore</div>
+          <div class="chip" data-filter="psalms">Psalms</div>
+          <div class="chip" data-filter="bookOfUs">Book of Us</div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <div class="section">
+        <h2>Collections</h2>
+        <span class="count" id="stat"></span>
+      </div>
+      <div class="grid" id="grid"></div>
+
+      <div class="section"><h2>Docs Sections</h2></div>
+      <div class="grid" id="sections"></div>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">Served from @docs • Generated for GitHub Pages • <span id="stamp"></span></div>
+  </footer>
+
+  <script>
+    const state = { data:null, filter:'all', q:'' };
+    const grid = document.getElementById('grid');
+    const sections = document.getElementById('sections');
+    const stat = document.getElementById('stat');
+    const q = document.getElementById('q');
+    const chips = document.getElementById('chips');
+    const stamp = document.getElementById('stamp');
+
+    function card(href, title, summary, accent) {
+      const a = document.createElement('a');
+      a.href = href; a.className = 'card';
+      a.innerHTML = `
+        <div class="kicker"><span class="dot" style="background:${accent}"></span><span>${href}</span></div>
+        <h3>${title}</h3>
+        ${summary ? `<p>${summary}</p>` : ''}
+      `;
+      return a;
+    }
+
+    function render() {
+      if (!state.data) return;
+      const hue = (s) => s === 'lore' ? '#6E56CF' : s==='psalms' ? '#22c1c3' : '#fdbb2d';
+
+      // filter + search
+      const qlc = state.q.trim().toLowerCase();
+      const buckets = [];
+      if (state.filter === 'all' || state.filter === 'lore') buckets.push(...state.data.lore.map(x=>({t:'lore',...x})));
+      if (state.filter === 'all' || state.filter === 'psalms') buckets.push(...state.data.psalms.map(x=>({t:'psalms',...x})));
+      if (state.filter === 'all' || state.filter === 'bookOfUs') buckets.push(...state.data.bookOfUs.map(x=>({t:'bookOfUs',...x})));
+      const items = buckets.filter(x => {
+        const s = (x.name + ' ' + (x.summary||'')).toLowerCase();
+        return !qlc || s.includes(qlc);
+      });
+
+      grid.innerHTML = '';
+      items.forEach(it => {
+        const title = it.name.replace(/\.(md|json)$/,'');
+        const link = it.path.startsWith('http') ? it.path : `./${it.path}`;
+        grid.appendChild(card(link, title, it.summary || '', hue(it.t)));
+      });
+      stat.textContent = `${items.length} items`;
+
+      sections.innerHTML = '';
+      (state.data.sections||[]).forEach(s => {
+        sections.appendChild(card(`./${s.path}/`, s.title, s.path, '#6E56CF'));
+      });
+
+      stamp.textContent = `built ${new Date(state.data.generated_at).toLocaleString()}`;
+    }
+
+    chips.addEventListener('click', (e) => {
+      const el = e.target.closest('.chip');
+      if (!el) return;
+      document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+      el.classList.add('active');
+      state.filter = el.dataset.filter; render();
+    });
+    q.addEventListener('input', () => { state.q = q.value; render(); });
+
+    fetch('./data/library.json?_=' + Date.now())
+      .then(r => r.json())
+      .then(j => { state.data = j; render(); })
+      .catch(err => { grid.innerHTML = '<div class="card"><h3>Data missing</h3><p>Run predeploy to generate dashboard data.</p></div>'; console.error(err); });
+  </script>
+</body>
+</html>
+

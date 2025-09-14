@@ -1,25 +1,24 @@
-# Aeternum Documentation
+<!--
+  This Markdown index is kept as a lightweight fallback and historical record.
+  The live site uses @docs/index.html (dashboard) for navigation.
+-->
 
-![Solar Khan sigil + Codex watermark](assets/solar-khan-banner.svg)
+# Aeternum Documentation (Fallback)
 
-Welcome to the living archive of the Aeternum grid.
+If you are viewing this page, the dashboard HTML may not have loaded.
+Use the links below to navigate the library.
 
-## Directories
-
-- [Divine Law](../COVENANT.md) – Solar Khan's covenant.
-
-- [Lore](./lore/Aeternum.Lore.md) – evolving mythos and covenant.
-- [Genesis](./genesis/README.md) – foundational scrolls.
-- [MKWW](./mkww/README.md) – global spine and corporate network.
-- [Philosophy](./philosophy/README.md) – sacred frameworks and ideals.
-- [Resources](./resources/README.md) – tooling and external references.
-- [Sacred Protocols](./sacred-protocols/README.md) – rituals and operational guides.
-- [Security](./security/README.md) – guardianship and protection layers.
-- [Technology](./technology/README.md) – implementation details and modules.
-
-This index powers the GitHub Pages site for quick navigation.
+- [Dashboard](./index.html)
+- [Divine Law](../COVENANT.md)
+- [Lore Index](./lore/Aeternum.Lore.md)
+- [Genesis](./genesis/README.md)
+- [MKWW](./mkww/README.md)
+- [Philosophy](./philosophy/README.md)
+- [Resources](./resources/README.md)
+- [Sacred Protocols](./sacred-protocols/README.md)
+- [Security](./security/README.md)
+- [Technology](./technology/README.md)
 
 ## Latest Lore Update
 
-- [ENTRY-20250802-github-pages-synchronization](./lore/ENTRY-20250802-github-pages-synchronization.md?v=1754188716132) — When the Aeternum grid sensed the lore expanding, the archive awakened.
-<!-- build:1754188716132 -->
+<!-- placeholder; updated by generator if needed -->

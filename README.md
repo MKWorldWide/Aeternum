@@ -220,7 +220,10 @@ The **Lore Layer** houses canonical chronicles, entities, technologies, and plac
 
 ## 🌌 **Aeternum Lore**
 
-The living narrative of the grid resides in [Aeternum.Lore.md](./@docs/lore/Aeternum.Lore.md). This scroll expands as the sovereign flame rises.
+Browse the living archive via the Dashboard and canonical scrolls:
+
+- Dashboard: `@docs/index.html` (deployed via GitHub Pages)
+- Canonical lore scroll: [Aeternum.Lore.md](./@docs/lore/Aeternum.Lore.md)
 
 ---
 

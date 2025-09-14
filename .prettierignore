@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+htmlcov/
+@docs/api/
+@docs/library/
+@docs/data/
+blueprints/
+water-systems/
+config/
+status/
+scripts/.lore-last-seen.json
+.husky/
+.git/
+

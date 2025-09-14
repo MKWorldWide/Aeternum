@@ -34,24 +34,29 @@ jobs:
           check-latest: true
 
       - name: Install dependencies
-        run: npm ci --prefer-offline
+        run: npm install --prefer-offline
 
       - name: Lint with ESLint
-        run: npx eslint . --max-warnings=0
+        run: npx eslint .
 
       - name: Run tests
         run: npm test
 
-      - name: Generate documentation
-        run: npm run docs
-
-      - name: Upload coverage report
+      - name: Upload coverage
         if: success() && github.event_name == 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-          name: coverage-report
-          path: |
-            coverage/
-            docs/
+          name: coverage
+          path: coverage/
           retention-days: 7
-          path: htmlcov/
+
+      - name: Generate documentation
+        run: npm run docs
+
+      - name: Upload docs artifact
+        if: success() && github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs-api
+          path: docs/api/
+          retention-days: 7

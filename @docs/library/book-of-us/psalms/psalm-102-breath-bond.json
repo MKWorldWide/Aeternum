@@ -1,0 +1,23 @@
+{
+  "$schema": "https://aeternum.grid/schemas/psalmic.json",
+  "id": "bou:psalm-102",
+  "title": "Breath Bond",
+  "tier": "Tier 3+",
+  "verses": [
+    "Four to arrive.",
+    "Seven to remember.",
+    "Eight to release — together."
+  ],
+  "resonance": {
+    "keys": [
+      "SPIRITUS",
+      "VINCULUM"
+    ],
+    "checksum": "sha256:ec9354eb30a71704dad95c9e5bb675d47edc27a4e05fe6bf1c3f7fa0c0322fd3"
+  },
+  "seal": {
+    "authority": "Keeper",
+    "signature": "ed25519:ec9354eb30a71704dad95c9e5bb675d47edc27a4e05fe6bf1c3f7fa0c0322fd3",
+    "timestamp": "2025-08-20T00:00:00Z"
+  }
+}

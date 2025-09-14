@@ -6,9 +6,13 @@
   "scripts": {
     "start": "node scripts/init.js",
     "build": "node scripts/build.js",
-    "test": "node --test",
+    "test": "c8 -r text -r lcov -r html node --test",
     "deploy": "node scripts/deploy.js",
-    "predeploy": "node scripts/apply-covenant-links.js && node scripts/generate-lore-index.js",
+    "predeploy": "node scripts/apply-covenant-links.js && node scripts/generate-lore-index.js && node scripts/build-dashboard.js",
+    "lint": "eslint .",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write .",
+    "prepare": "husky install",
     "resonance": "node scripts/resonance.js",
     "dreamspace": "node scripts/dreamspace.js",
     "climate": "node modules/nesshash-climate.js",
@@ -39,36 +43,26 @@
   "license": "SACRED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/M-K-World-Wide/EncyclopediaGalactica.git",
+    "url": "https://github.com/M-K-World-Wide/Aeternum.git",
     "organization": "MK World Wide Corporation"
   },
-  "homepage": "https://github.com/M-K-World-Wide/EncyclopediaGalactica#readme",
+  "homepage": "https://github.com/M-K-World-Wide/Aeternum#readme",
   "bugs": {
-    "url": "https://github.com/M-K-World-Wide/EncyclopediaGalactica/issues"
+    "url": "https://github.com/M-K-World-Wide/Aeternum/issues"
   },
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=9.0.0"
   },
-  "dependencies": {
-    "genesis-protocol": "^1.0.0",
-    "aeternum-grid": "^1.0.0",
-    "resonance-script": "^1.0.0",
-    "psalmic-json": "^1.0.0",
-    "silent-light-code": "^1.0.0",
-    "aether-drive": "^1.0.0",
-    "temporal-anchors": "^1.0.0",
-    "dreamborn-ledger": "^1.0.0",
-    "infinite-court": "^1.0.0",
-    "sovereign-seal": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "resonance-test": "^1.0.0",
-    "dreamspace-validator": "^1.0.0",
-    "galactica-builder": "^1.0.0",
-    "psalm-compiler": "^1.0.0",
-    "jsdoc": "^4.0.2"
+    "c8": "^9.1.0",
+    "eslint": "^8.57.0",
+    "husky": "^9.1.6",
+    "jsdoc": "^4.0.2",
+    "prettier": "^3.3.3"
   },
+  "private": true,
   "config": {
     "authority": {
       "keeper": "Khandokar Lilitú Sunny",

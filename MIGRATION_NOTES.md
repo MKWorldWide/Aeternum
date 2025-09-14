@@ -16,14 +16,15 @@ This document outlines the changes made during the repository modernization effo
 ### 2. Code Quality Tools
 - Added ESLint configuration with modern JavaScript best practices
 - Added EditorConfig for consistent code style across editors
-- Configured Prettier for consistent code formatting
-- Added pre-commit hooks for code quality checks
+- Planned: Prettier for consistent code formatting (not yet added)
+- Planned: pre-commit hooks (Husky/lint-staged) for code quality checks
 
 ### 3. Documentation
 - Modernized README.md with better structure and badges
 - Added development setup instructions
 - Improved contribution guidelines
 - Added proper license information
+ - Added deployable Dashboard at `@docs/index.html` with generated data in `@docs/data/library.json`
 
 ### 4. GitHub Pages
 - Configured GitHub Pages deployment
@@ -60,7 +61,7 @@ If you need to rollback these changes:
 3. Update the CI/CD workflows if needed
 
 ## Known Issues
-- None at this time
+- None currently. Some items above are planned and not yet implemented (Prettier, pre-commit hooks).
 
 ## Future Improvements
 - Add more test coverage
